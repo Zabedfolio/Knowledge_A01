@@ -20,8 +20,12 @@
     font-size: 16px;
     font-weight: 600px;
     border: none;
-    
+    cursor: pointer;
 }
+.primary-btn:hover{
+    background-color: #198446;
+}
+
 
 .color-green{
     color: #30B868;
@@ -165,6 +169,7 @@ nav .menu{
     color: #627382;
     font-size: 16px;
     line-height: 20px;
+    padding-top: 16px;
 }
 
 #card-container .card-box{
@@ -311,3 +316,53 @@ nav .menu{
     color: #627382;
 }
 
+#footer-container{
+    width: 100%;
+    color: white;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px ;
+}
+#footer-container .footer-box{
+    width: 100%;
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: space-between;
+    /* border: #F7F6F2 solid 1px; */
+    /* gap:790px ; */
+    align-items: center;
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+#footer-container .footer-box .social{
+    width: 220px;
+}
+
+#footer-container .footer-box .social p{
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+#footer-container .footer-box .social a{
+    margin-right: 10px;
+}
+
+a:hover{
+    background-color: #30B868;
+    border-radius: 50%;
+}
+
+#footer-container hr{
+    opacity: 20%;
+}
+
+#footer-container .right-reserved{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+#footer-container .right-reserved p{
+    color: #FAFAFA;
+    font-size: 16px;
+}
