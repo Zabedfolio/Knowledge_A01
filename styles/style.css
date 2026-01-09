@@ -139,6 +139,9 @@ nav .menu{
 
 #card-container{
     width: 100%;
+    position: relative;
+    z-index: 1;
+    /* z-index: index 0; */
     
 }
 
@@ -213,4 +216,54 @@ nav .menu{
     color: #627382;
 }
 
+#brain-section{
+    width: 100%;
+    padding: 120px;
+    /* border: #30B868 solid 1px; */
+    margin-top: -60px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    /* z-index: index; ; */
+    /* display: flex; */
+    /* align-items: center; */
+}
 
+#brain-section .brain-box{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+
+}
+
+#brain-section .brain-box h1{
+    font-size: 48px;
+    padding-top: 16px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+#brain-section .brain-box p{
+    font-size: 16px;
+    color: #627382;
+    /* padding-top: 16px; */
+}
+
+#brain-section .brain-box .brain-heading .solution{
+    color: #30B868;
+    font-size: 16px;
+}
+
+#brain-section .brain-thick{
+    padding-top: 40px;
+    align-items: center;
+
+}
+
+#brain-section .brain-thick .thick{
+    display: flex;
+    padding-bottom: 16px;
+    gap: 6px;
+    align-items: center;
+}
